@@ -23,7 +23,7 @@ class Calculadora_imc{
 
     $imc = $this->calcular_imc();
 
-    if ($imc < 18.5) return "Abaixodo peso";
+    if ($imc < 18.5) return "Abaixo do peso";
     if ($imc < 24.9) return "Peso normal";
     if ($imc < 29.9) return "Sobrepeso";  
     return "Obesidade";
