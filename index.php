@@ -1,3 +1,9 @@
+<?php 
+require_once 'config/database.php';
+require_once 'classes/calculadora.php';
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
